@@ -1,0 +1,45 @@
+{
+    "name": "quillstack/output",
+    "description": "The library responsible for console output in CLI commands.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "output",
+        "console",
+        "cli",
+        "colours",
+        "colors",
+        "php8"
+    ],
+    "homepage": "https://quillstack.org/output",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radek@quillstack.org"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "quillstack/unit-tests": "^0.4"
+    },
+    "autoload": {
+        "files": [
+            "src/output.helper.php"
+        ],
+        "psr-4": {
+            "Quillstack\\Output\\": "src/",
+            "Quillstack\\Output\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "unit-tests",
+        "test:coverage": "phpdbg -qrr ./vendor/bin/unit-tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    }
+}
