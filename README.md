@@ -1,5 +1,7 @@
 # Quillstack Output
 
+[![Tests](https://github.com/quillstack/output/actions/workflows/tests.yml/badge.svg)](https://github.com/quillstack/output/actions/workflows/tests.yml)
+
 The library responsible for console output in CLI commands, colouring text with
 HTML-like tags.
 
