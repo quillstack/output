@@ -39,6 +39,9 @@ class Colors
         'white' => '1;37',
     ];
 
+    /**
+     * @var array<string, string>
+     */
     private array $codes;
 
     /**
@@ -99,7 +102,7 @@ class Colors
     {
         $tags = implode('|', array_map('preg_quote', array_keys($this->codes)));
 
-        return preg_replace_callback(
+        return (string) preg_replace_callback(
             "#</?({$tags})>#i",
             static fn (array $match): string => $replace(strtolower($match[1]), $match[0][1] === '/'),
             $text
