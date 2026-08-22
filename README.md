@@ -1,6 +1,11 @@
 # Quillstack Output
 
 [![Tests](https://github.com/quillstack/output/actions/workflows/tests.yml/badge.svg)](https://github.com/quillstack/output/actions/workflows/tests.yml)
+[![Latest Version](https://img.shields.io/packagist/v/quillstack/output.svg)](https://packagist.org/packages/quillstack/output)
+[![Downloads](https://img.shields.io/packagist/dt/quillstack/output.svg)](https://packagist.org/packages/quillstack/output)
+[![PHP Version](https://img.shields.io/packagist/php-v/quillstack/output)](https://packagist.org/packages/quillstack/output)
+[![StyleCI](https://github.styleci.io/repos/394802660/shield?branch=main)](https://github.styleci.io/repos/394802660?branch=main)
+[![License](https://img.shields.io/packagist/l/quillstack/output)](https://github.com/quillstack/output/blob/main/LICENSE)
 
 The library responsible for console output in CLI commands, colouring text with
 HTML-like tags.
