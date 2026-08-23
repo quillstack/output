@@ -11,7 +11,7 @@
         "colors",
         "php8"
     ],
-    "homepage": "https://quillstack.org/output",
+    "homepage": "https://quillstack.org/packages/output",
     "authors": [
         {
             "name": "Radek Ziemniewicz",
