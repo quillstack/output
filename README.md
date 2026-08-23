@@ -6,6 +6,11 @@
 [![PHP Version](https://img.shields.io/packagist/php-v/quillstack/output)](https://packagist.org/packages/quillstack/output)
 [![StyleCI](https://github.styleci.io/repos/394802660/shield?branch=main)](https://github.styleci.io/repos/394802660?branch=main)
 [![CodeFactor](https://www.codefactor.io/repository/github/quillstack/output/badge)](https://www.codefactor.io/repository/github/quillstack/output)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=quillstack_output&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=quillstack_output)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quillstack_output&metric=coverage)](https://sonarcloud.io/summary/new_code?id=quillstack_output)
+[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_output&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_output)
+[![Reliability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_output&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_output)
+[![Security](https://sonarcloud.io/api/project_badges/measure?project=quillstack_output&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_output)
 [![License](https://img.shields.io/packagist/l/quillstack/output)](https://github.com/quillstack/output/blob/main/LICENSE)
 
 The library responsible for console output in CLI commands, colouring text with
